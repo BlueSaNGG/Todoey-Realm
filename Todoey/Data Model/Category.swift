@@ -11,6 +11,7 @@ import RealmSwift
 
 class Category: Object {
     @objc dynamic var name : String = ""
+    @objc dynamic var backGroundColor : String?
     //每个category中含有自己的item
     let items = List<Item>()
 }
